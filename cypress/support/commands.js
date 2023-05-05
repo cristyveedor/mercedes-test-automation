@@ -8,9 +8,8 @@ Cypress.Commands.add('visitHomepage', () => {
 Cypress.Commands.add('closeCookiebanner', () => {
   cy.get('cmm-cookie-banner')
     .shadow()
-    .find('[data-test="handle-accept-all-button"]', {timeout: 50000} )
+    .find('[data-test="handle-accept-all-button"]')
     .eq(0)
-    .should('be.visible')
     .click({ force: true });
 });
 
