@@ -1,0 +1,13 @@
+{
+  "name": "mercedes",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "author": "Cristy V",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.8.1"
+  }
+}
